@@ -34,8 +34,6 @@ class _LearningCardWidgetState extends State<LearningCardWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => LearningCardModel());
-
-    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
   }
 
   @override

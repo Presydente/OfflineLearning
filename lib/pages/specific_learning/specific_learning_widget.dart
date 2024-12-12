@@ -22,8 +22,6 @@ class _SpecificLearningWidgetState extends State<SpecificLearningWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => SpecificLearningModel());
-
-    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
   }
 
   @override
